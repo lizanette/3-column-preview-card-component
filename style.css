@@ -1,0 +1,99 @@
+.attribution { 
+    color: black;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+    color: white;
+}
+
+p {
+    font-size: 15px;
+    line-height: 2;
+}
+
+h3 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "Lexend Deca", sans-serif;
+    padding: 10px 25px;
+    transition: all 0.4s ease-in-out;
+}
+
+.container {
+    padding: 30px;
+}
+
+.contenido {
+    padding: 45px;
+}
+
+.bright-orange {
+    background-color: hsl(31, 77%, 52%);  
+    border-radius: 10px 10px 0px 0px;  
+}
+
+.bright-orange button {
+    color: hsl(31, 77%, 52%);
+}
+
+.dark-cyan {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.dark-cyan button {
+    color: hsl(184, 100%, 22%);
+}
+
+.very-dark-cyan {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 0px  10px 10px; 
+}
+
+.very-dark-cyan button{
+    color: hsl(179, 100%, 13%);
+}
+
+button:hover { /* it must be after all the specifications of the buttons */
+    background-color: transparent;
+    color: white;
+}
+
+@media (min-width: 992px) {
+    .container {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        max-width: 900px;
+        min-height: 100vh;
+    }
+
+    .bright-orange {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .very-dark-cyan {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .card p {
+        margin-bottom: 60px;
+    }
+}
